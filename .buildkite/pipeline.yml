@@ -1,0 +1,9 @@
+steps:
+  - name: ":docker: Step one"
+    command: |
+      sleep 2
+      echo "Step running"
+  - wait
+  - name: ":docker: Step two"
+    command: |
+      echo "Step running"
