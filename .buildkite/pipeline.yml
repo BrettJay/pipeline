@@ -7,3 +7,7 @@ steps:
   - name: ":docker: Step two"
     command: |
       echo "Step running"
+  - wait
+  - name: ":apple: Step three"
+    command: |
+      echo "Another Step running"
